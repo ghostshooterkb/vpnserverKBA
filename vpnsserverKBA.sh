@@ -19,25 +19,20 @@ apt-get -y install nano
 
 #membuat banner
 cat > /etc/issue.net <<-END
-echo -e "\e[1;31m GHOSTKBA PRIVATE SERVER \e[0m"
-
- echo -e "\e[1;42m ***WAKBA*** \e[0m"
-         
-TERMS OF SERVICE:
-
-echo -e "\e[1;43m
--NO SHARE ACCOUNT
-
--NO DDOS
-
--NO HACKING,CRACKING AND CARDING
-
--NO TORRENT
-
--NO SPAM
-
--NO PLAYSTATION SITE \e[0m"
-
+<html>
+<body>
+<h4>&#9734; <font color="#20B2AA">GHOSTKBA PRIVATE SERVER</font> &#9734;</h4>
+<font color="#8A2BE2">&#187; NO SPAM !!!</font><br>
+<font color="#A52A2A">&#187; NO DDOS !!!</font><br>
+<font color="#6495ED">&#187; NO HACKING !!!</font><br>
+<font color="#008B8B">&#187; NO CARDING !!!</font><br>
+<font color="#9932CC">&#187; NO TORRENT !!!</font><br>
+<font color="#1E90FF">&#187; NO OVER DOWNLOADING !!!</font><br>
+<br>
+<b><font color="#FF6347">KBA™ SERVICE;</font> auto script</b>
+<br>
+</body>
+</html>
 END
 
 #set banner openssh
